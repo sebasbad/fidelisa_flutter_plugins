@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:flutter_twitter_login/flutter_twitter_login.dart';
+//import 'package:flutter_twitter_login/flutter_twitter_login.dart';
 import 'package:meta/meta.dart';
 
 import 'email_view.dart';
@@ -75,7 +75,7 @@ class _LoginViewState extends State<LoginView> {
   }
 
   _handleTwitterSignin() async {
-    var twitterLogin = new TwitterLogin(
+    /*var twitterLogin = new TwitterLogin(
       consumerKey: widget.twitterConsumerKey,
       consumerSecret: widget.twitterConsumerSecret,
     );
@@ -95,7 +95,7 @@ class _LoginViewState extends State<LoginView> {
       case TwitterLoginStatus.error:
         showErrorDialog(context, result.errorMessage);
         break;
-    }
+    }*/
   }
 
   @override
