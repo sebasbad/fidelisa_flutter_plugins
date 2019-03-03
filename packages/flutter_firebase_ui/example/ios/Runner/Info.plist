@@ -56,6 +56,8 @@
             </array>
         </dict>
 		<dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>fb2121619214739833</string>
