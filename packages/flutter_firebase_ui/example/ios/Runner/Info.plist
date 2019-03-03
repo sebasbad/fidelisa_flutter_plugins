@@ -47,6 +47,14 @@
 	<false/>
 	<key>CFBundleURLTypes</key>
 	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>twitterkit-YOURCONSUMERKEY</string>
+            </array>
+        </dict>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
@@ -62,6 +70,11 @@
 			</array>
 		</dict>
 	</array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>twitter</string>
+        <string>twitterauth</string>
+    </array>
 	<key>FacebookAppID</key>
 	<string>2121619214739833</string>
 	<key>FacebookDisplayName</key>

@@ -11,8 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  #flutter_twitter_login:
-  #  git: git://github.com/sebasbad/flutter_twitter_login.git
+  #flutter_twitter_login: ^1.1.0
+  flutter_twitter_login:
+    git:
+      url: git://github.com/sebasbad/flutter_twitter_login.git
+      ref: feature/correct-android-and-ios-example-errors
 
   firebase_auth: ^0.8.1
 
